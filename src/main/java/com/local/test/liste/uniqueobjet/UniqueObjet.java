@@ -37,9 +37,7 @@ public class UniqueObjet {
         }
 
         valeursRetenues = elementsSet.stream()
-                .map(elt -> {
-                    return getMaxElement(elt.getLibelle(), elementsSet);
-                }).distinct().collect(Collectors.toList());
+                .map(elt -> getMaxElement(elt.getLibelle(), elementsSet)).distinct().collect(Collectors.toList());
 
         for (Element element : valeursRetenues.stream().distinct().collect(Collectors.toList())) {
             System.out.println("*-*-*-*-*- Element retenu2: " + element);
