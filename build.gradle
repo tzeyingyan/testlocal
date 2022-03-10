@@ -32,6 +32,9 @@ dependencies {
 
     //Page Spring
     implementation "org.springframework.data:spring-data-commons:${springBootVersion}"
+
+    // Redis client
+    implementation 'redis.clients:jedis:3.8.0'
 }
 
 test {

@@ -1,2 +1,2 @@
-# localtest
+# testlocal
 Projet afin de tester du code, librairies, ...
